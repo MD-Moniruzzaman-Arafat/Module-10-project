@@ -120,3 +120,24 @@ main {
     color: #562EFF;
     font-weight: 700;
 }
+
+/* Lates Course section */
+.courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course img {
+    width: 224px;
+}
+
+.reating {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.lates-course-section>h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
