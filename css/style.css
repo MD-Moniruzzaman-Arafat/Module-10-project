@@ -159,3 +159,26 @@ body {
     margin-right: 3px;
     color: yellow;
 }
+
+
+/* mobile responsive */
+
+@media only screen and (max-width: 600px) {
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .courses {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
